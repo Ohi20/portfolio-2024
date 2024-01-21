@@ -8,56 +8,56 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "3d Portfolio",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/3d-Portfolio-2023/tree/main",
+    previewUrl: "https://portfolio-ashraf-ohi.netlify.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Youtube Clone",
+    description: "Rest API",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/Youtube-Clone-2023",
+    previewUrl: "https://youtube-clone-api-2023.netlify.app/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Cinemore",
+    description: "Rest API",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/Movie-App-With-REST_API",
+    previewUrl: "https://cinemore.netlify.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Music App",
+    description: "Mp3 Songs",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/Auth-App-With-Firebase",
+    previewUrl: "https://willowy-donut-67169c.netlify.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Solar System",
+    description: "3d Solar",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/3d-Solar-System",
+    previewUrl: "https://effortless-pegasus-0b7dd5.netlify.app/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Digital Clock",
+    description: "Javascript",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Frontend"],
+    gitUrl: "https://github.com/Ohi20/Digital-Cloak-with-Dom-Manipulation",
+    previewUrl: "https://celebrated-quokka-ae1b2f.netlify.app/",
   },
 ];
 
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Frontend"
+          isSelected={tag === "Frontend"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Backend"
+          isSelected={tag === "Backend"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
