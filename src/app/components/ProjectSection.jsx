@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Music App",
-    description: "Mp3 Songs",
+    description: "ReactJs",
     image: "/images/projects/4.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Ohi20/Auth-App-With-Firebase",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Solar System",
-    description: "3d Solar",
+    description: "Html Css",
     image: "/images/projects/5.png",
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/Ohi20/3d-Solar-System",
